@@ -1,6 +1,6 @@
-# MagicLang
+# [MagicLang](https://github.com/Artwalk/MagicLang)
 
-## Magicka: The Other Side of the Language
+## [Magicka: The Other Side of the Language](https://github.com/Artwalk/MagicLang)
 
 魔能：语言的另一面
 

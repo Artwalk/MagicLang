@@ -1,13 +1,16 @@
 #!/bin/zsh
 
-function n() {
-	echo '# 
+# ./magicLang.sh n 111
+# ./magicLang.sh g
 
-原文：[]()
+function n() {
+echo '# 
+
+原文：[]()  
+翻译：[MagicLang](http://artwalk.github.io//2017/05/11/MagicLang)
 
 <!--more-->
-
-翻译 [MagicLang](https://github.com/Artwalk/MagicLang)' > ./Contents/$1.md
+' > ./Contents/$1.md
 }
 
 function g() {
