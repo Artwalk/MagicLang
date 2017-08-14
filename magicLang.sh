@@ -29,6 +29,10 @@ perl -i -pe 's|^1. \[.*$\\n||g' README.md
 perl -i -pe 's|^$||g' README.md
 
 echo $value >> README.md
+
+commit=$(tail -1 README.md | cut -c5- | cut -d']' -f1)
+git commit -a -m $commit
+git push
 }
 
 case $1 in
